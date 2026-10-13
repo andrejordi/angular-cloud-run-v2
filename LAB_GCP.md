@@ -2,6 +2,7 @@
 
 Objetivo: que el [Jenkinsfile](Jenkinsfile) se autentique en GCP **sin llaves JSON ni OIDC**, usando la Service Account asociada a la VM donde corre Jenkins (credenciales del servidor de metadatos).
 
+
 ```mermaid
 sequenceDiagram
     participant J as Jenkins (VM GCP)
